@@ -1,0 +1,163 @@
+(base) deathslayer@Tehseens-MBP IamNachoMama % git init
+Initialized empty Git repository in /Users/deathslayer/Desktop/FullStackWeb/W4/IamNachoMama/.git/
+(base) deathslayer@Tehseens-MBP IamNachoMama % git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+        assets/
+        index.html
+        prepros-6.config
+        prepros.config
+
+nothing added to commit but untracked files present
+(base) deathslayer@Tehseens-MBP IamNachoMama % git add .
+(base) deathslayer@Tehseens-MBP IamNachoMama % git commit -m "first commit"
+[master (root-commit) 6887f96] first commit
+ 112 files changed, 47254 insertions(+)
+ create mode 100644 assets/css/bootstrap.min.css
+ create mode 100644 assets/css/flex-slider.css
+ create mode 100644 assets/css/font-awesome.css
+ create mode 100644 assets/css/gallery.css
+ create mode 100644 assets/css/lightbox.css
+ create mode 100644 assets/css/notes.txt
+ create mode 100644 assets/css/owl-carousel.css
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/fonts/Castle-Begale.ttf
+ create mode 100644 assets/fonts/Flaticon.woff
+ create mode 100644 assets/fonts/FontAwesome.otf
+ create mode 100644 assets/fonts/castle_begale/Castle Begale Italic.otf
+ create mode 100644 assets/fonts/castle_begale/Castle Begale Italic.ttf
+ create mode 100644 assets/fonts/castle_begale/Castle Begale Italic.woff
+ create mode 100644 assets/fonts/castle_begale/Castle Begale Italic.woff2
+ create mode 100644 assets/fonts/castle_begale/Castle Begale.otf
+ create mode 100644 assets/fonts/castle_begale/Castle Begale.woff
+ create mode 100644 assets/fonts/castle_begale/Castle Begale.woff2
+ create mode 100644 assets/fonts/castle_begale/Castle-Begale.ttf
+ create mode 100644 assets/fonts/flexslider-icon.eot
+ create mode 100644 assets/fonts/flexslider-icon.svg
+ create mode 100644 assets/fonts/flexslider-icon.ttf
+ create mode 100644 assets/fonts/flexslider-icon.woff
+ create mode 100644 assets/fonts/fontawesome-webfont.eot
+ create mode 100644 assets/fonts/fontawesome-webfont.svg
+ create mode 100644 assets/fonts/fontawesome-webfont.ttf
+ create mode 100644 assets/fonts/fontawesome-webfont.woff
+ create mode 100644 assets/fonts/fontawesome-webfont.woff2
+ create mode 100644 assets/fonts/la-gagliane/La Gagliane.otf
+ create mode 100644 assets/fonts/la-gagliane/Read this.txt
+ create mode 100644 assets/fonts/slick.eot
+ create mode 100644 assets/fonts/slick.svg
+ create mode 100644 assets/fonts/slick.ttf
+ create mode 100644 assets/fonts/slick.woff
+ create mode 100644 assets/im/Holy-trinity.jpg
+ create mode 100644 assets/im/cheesy-rice-empanada.jpg
+ create mode 100644 assets/im/chicken-bowl.jpg
+ create mode 100644 assets/im/chicken-burrito.jpg
+ create mode 100644 assets/im/chicken-empanada.jpg
+ create mode 100644 assets/im/chicken-queso.jpg
+ create mode 100644 assets/im/ground-top-sirloin.jpg
+ create mode 100644 assets/im/guac-chips.jpg
+ create mode 100644 assets/im/limonada-fresca.jpg
+ create mode 100644 assets/im/mama-cuba-2.jpg
+ create mode 100644 assets/im/mama-cuba.jpg
+ create mode 100644 assets/im/mama-sampler.jpg
+ create mode 100644 assets/images/Holy-trinity.jpg
+ create mode 100644 assets/images/Rest-Guru-Award.png
+ create mode 100644 assets/images/best-food-background.jpeg
+ create mode 100644 assets/images/bravo-from-salem.jpg
+ create mode 100644 assets/images/cheesy-rice-empanada.jpg
+ create mode 100644 assets/images/chef-carlos-juarez.avif
+ create mode 100644 assets/images/chicken-bowl.jpg
+ create mode 100644 assets/images/chicken-burrito.jpg
+ create mode 100644 assets/images/chicken-empanada.jpg
+ create mode 100644 assets/images/chicken-queso.jpg
+ create mode 100644 assets/images/churros.jpg
+ create mode 100644 assets/images/close.png
+ create mode 100644 assets/images/food-bg-2.jpg
+ create mode 100644 assets/images/food-bg-3.jpeg
+ create mode 100644 assets/images/ground-top-sirloin.jpg
+ create mode 100644 assets/images/guac-chips.jpg
+ create mode 100644 assets/images/leaf-1.png
+ create mode 100644 assets/images/limonada-fresca.jpg
+ create mode 100644 assets/images/loading.gif
+ create mode 100644 assets/images/mama-cuba-2.jpg
+ create mode 100644 assets/images/mama-cuba.jpg
+ create mode 100644 assets/images/mama-sampler.jpg
+ create mode 100644 assets/images/mayan-choco-muse.jpg
+ create mode 100644 assets/images/nacho-mama-truck.jpg
+ create mode 100644 assets/images/next.png
+ create mode 100644 assets/images/paper-cut.webp
+ create mode 100644 assets/images/prev.png
+ create mode 100644 assets/images/reservation-bg.jpg
+ create mode 100644 assets/images/slide-01.jpg
+ create mode 100644 assets/images/slide-02.jpg
+ create mode 100644 assets/images/slide-03.jpg
+ create mode 100644 assets/images/tab-icon-01.png
+ create mode 100644 assets/images/tab-icon-02.png
+ create mode 100644 assets/images/tab-icon-03.png
+ create mode 100644 assets/images/top-100.png
+ create mode 100644 assets/images/top-left-bg.jpg
+ create mode 100644 assets/images/tres-leches.jpg
+ create mode 100644 assets/images/white-logo.png
+ create mode 100644 assets/images/zacapa-flan.jpg
+ create mode 100644 assets/img/iamnachomama-logo.png
+ create mode 100644 assets/img/iamnachomama.png
+ create mode 100644 assets/img/slide-01.png
+ create mode 100644 assets/img/slide-02.png
+ create mode 100644 assets/img/slide-03.png
+ create mode 100644 assets/img/slide-04.png
+ create mode 100644 assets/img/slide-05.png
+ create mode 100644 assets/img/slide-06.jpeg
+ create mode 100644 assets/img/slide-07.png
+ create mode 100644 assets/js/accordions.js
+ create mode 100644 assets/js/bootstrap.min.js
+ create mode 100644 assets/js/custom.js
+ create mode 100644 assets/js/datepicker.js
+ create mode 100644 assets/js/gallery.js
+ create mode 100644 assets/js/imgfix.min.js
+ create mode 100644 assets/js/isotope.js
+ create mode 100644 assets/js/jquery-2.1.0.min.js
+ create mode 100644 assets/js/jquery.counterup.min.js
+ create mode 100644 assets/js/lightbox.js
+ create mode 100644 assets/js/owl-carousel.js
+ create mode 100644 assets/js/popper.js
+ create mode 100644 assets/js/scrollreveal.min.js
+ create mode 100644 assets/js/slick.js
+ create mode 100644 assets/js/waypoints.min.js
+ create mode 100644 index.html
+ create mode 100644 prepros-6.config
+ create mode 100644 prepros.config
+(base) deathslayer@Tehseens-MBP IamNachoMama % git branch -M main
+(base) deathslayer@Tehseens-MBP IamNachoMama % git remote add origin https://github.com/ntehseen/IAmNachoMama.git
+(base) deathslayer@Tehseens-MBP IamNachoMama % git push -u origin main
+Enumerating objects: 110, done.
+Counting objects: 100% (110/110), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (110/110), done.
+Writing objects: 100% (110/110), 20.90 MiB | 2.35 MiB/s, done.
+Total 110 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/ntehseen/IAmNachoMama.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+(base) deathslayer@Tehseens-MBP IamNachoMama % git init
+Reinitialized existing Git repository in /Users/deathslayer/Desktop/FullStackWeb/W4/IamNachoMama/.git/
+(base) deathslayer@Tehseens-MBP IamNachoMama % git add .
+(base) deathslayer@Tehseens-MBP IamNachoMama % git commit -m "food section fix"
+[main 3d0a71b] food section fix
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+(base) deathslayer@Tehseens-MBP IamNachoMama % git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/ntehseen/IAmNachoMama.git'
+(base) deathslayer@Tehseens-MBP IamNachoMama % git push -u origin main                                           
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ntehseen/IAmNachoMama.git
+   6887f96..3d0a71b  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
